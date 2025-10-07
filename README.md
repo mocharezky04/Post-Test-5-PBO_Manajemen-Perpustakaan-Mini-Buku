@@ -185,7 +185,7 @@ Program ini menerapkan pola **Model-View-Controller (MVC)**:
 
 ## Contoh output:
 
-<img width="259" height="139" alt="{908DC621-AC4D-45A4-8B1D-BDAB93176B00}" src="https://github.com/user-attachments/assets/dc77c999-575c-467d-bcd5-929ece7b951d" />
+<img width="283" height="223" alt="{D93A4D2B-C041-409A-9261-823A9029C69B}" src="https://github.com/user-attachments/assets/f467a114-ce8a-412a-9365-31e1dbc27a1a" />
 
 
 ## Contoh Output
