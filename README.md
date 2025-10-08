@@ -88,6 +88,7 @@ Program ini menerapkan pola **Model-View-Controller (MVC)**:
     6. Keluar
     7. Tampilkan data dari Database
     8. Lihat data via ORM
+    9. Tambah item (Buku dan Majalah) ke Database (ORM)
 
 ## Penjelasan Menu
 1. **Tambah item**  
@@ -117,11 +118,13 @@ Program ini menerapkan pola **Model-View-Controller (MVC)**:
      ```
      Terima kasih sudah menggunakan sistem perpustakaan mini.
      ```
-7. **Tampilkan data dari Database (JDBC)**  
+7. **Tampilkan data(Buku) dari Database (JDBC)**  
    - Mengambil dan menampilkan data Buku langsung dari MySQL.
 
-8. **Lihat data via ORM**  
+8. **Lihat data via ORM(Majalah)**  
    - Mengambil data Majalah melalui class ORM dan menampilkannya sebagai objek Java.
+
+9. **Tambah item(Buku dan Majalah) ke Database (ORM)**  
 
 ---
 
@@ -150,8 +153,9 @@ Program ini menerapkan pola **Model-View-Controller (MVC)**:
    - Data awal dibaca dari tabel buku & majalah, bukan hardcoded di kode.
 
 5. ORM:
-   - Mengambil data Majalah dari database dan memetakannya ke objek Java (MajalahORM.java)
-   - Ditampilkan melalui menu ke-8.
+   - Data `Majalah` dan `Buku` dapat diambil dan disimpan langsung ke database.
+   - Menu 8 menampilkan data(Majalah) dari ORM.
+   - Menu 9 menambah data(Majalah dan Buku) baru ke database melalui ORM.
 
 ```
 
@@ -185,7 +189,7 @@ Program ini menerapkan pola **Model-View-Controller (MVC)**:
 
 ## Contoh output:
 
-<img width="283" height="223" alt="{D93A4D2B-C041-409A-9261-823A9029C69B}" src="https://github.com/user-attachments/assets/f467a114-ce8a-412a-9365-31e1dbc27a1a" />
+<img width="362" height="238" alt="{D7107B4B-4781-4395-936A-DE339840B968}" src="https://github.com/user-attachments/assets/f1b4038d-1fb9-4cc4-9731-9395e3c3aeb7" />
 
 
 ## Contoh Output
@@ -213,10 +217,14 @@ Program ini menerapkan pola **Model-View-Controller (MVC)**:
 <img width="392" height="208" alt="{5C429DCA-E50E-4A11-A82E-CED437DF25E6}" src="https://github.com/user-attachments/assets/c84c5e6e-15e8-4a03-bdce-bb1e547e0e46" />
 <img width="378" height="228" alt="{C366F8DA-3C4E-45FF-B7A9-1384BB41302C}" src="https://github.com/user-attachments/assets/0e2d6893-e148-4e4e-8638-20f8b78bc3d7" />
 
-### 7. Tampilkan Data dari Database (JDBC)
+### 7. Tampilkan data(Buku) dari Database (JDBC)
 
 <img width="347" height="310" alt="{83C9A40C-0938-4593-BD7A-67A04465DA2B}" src="https://github.com/user-attachments/assets/6908469b-4881-44c2-b4c8-4eb4dfa3e8f0" />
 
-### 8. Lihat Data via ORM
+### 8. Lihat data via ORM (Majalah)
 
 <img width="365" height="262" alt="{1D56500D-6A19-4EFB-B846-D4339FDFA859}" src="https://github.com/user-attachments/assets/21047040-329e-4192-9c7d-f727954bdf1c" />
+
+### 9. Tambah item (Buku dan Majalah) ke Database (ORM)
+
+<img width="377" height="655" alt="{D3AE4333-4D1F-4A37-A8C9-9DB8FBE324D5}" src="https://github.com/user-attachments/assets/01311e42-883a-49fb-a611-44f13f250d77" />
