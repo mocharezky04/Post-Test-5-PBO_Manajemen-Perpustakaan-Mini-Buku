@@ -22,7 +22,7 @@ Pengguna dapat:
 - Mencari item berdasarkan judul, penulis, atau tahun terbit
 - Menampilkan data dari **database (menu 7)**
 - Menampilkan data dari **ORM (menu 8)**
-- Menambahkan data langsung **ke database (menu 9)**
+- Menambahkan data langsung ke **database (menu 9) (ORM)**
 
 ---
 
